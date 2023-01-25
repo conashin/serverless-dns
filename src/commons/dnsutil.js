@@ -19,7 +19,7 @@ export const minDNSPacketSize = dnsPacketHeaderSize + 5;
 export const maxDNSPacketSize = 4096;
 
 // TODO: move _dns* related settings to env
-const _dnsCloudflareSec4 = "1.1.1.2";
+const _dnsCloudflareSec4 = "168.138.47.214";
 const _dnsFly6 = "fdaa::3";
 const _dnsCacheSize = 20000;
 
