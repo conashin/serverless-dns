@@ -27,7 +27,7 @@ globs = ["**/*.js"]
 LOG_LEVEL = "debug"
 WORKER_ENV = "development"
 CLOUD_PLATFORM = "cloudflare"
-CF_DNS_RESOLVER_URL = "168.138.47.214"
+CF_DNS_RESOLVER_URL = "https://dns.neko2.org:4443/dns-query"
 
 ##################
 #------PROD------#
@@ -52,7 +52,7 @@ routes = [
 LOG_LEVEL = "info"
 WORKER_ENV = "production"
 CLOUD_PLATFORM = "cloudflare"
-CF_DNS_RESOLVER_URL = "dns.neko2.org:4443/dns-query"
+CF_DNS_RESOLVER_URL = "https://dns.neko2.org:4443/dns-query"
 
 ##################
 #------ONE-------#
@@ -76,7 +76,7 @@ LOG_LEVEL = "logpush"
 WORKER_ENV = "production"
 CLOUD_PLATFORM = "cloudflare"
 CF_LOGPUSH_R2_PATH = "qlog/"
-CF_DNS_RESOLVER_URL = "dns.neko2.org:4443/dns-query"
+CF_DNS_RESOLVER_URL = "https://dns.neko2.org:4443/dns-query"
 
 ##################
 #-----SECRETS----#
